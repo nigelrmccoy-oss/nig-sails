@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nig-Sails v0.1 — nautical globe (unofficial)</title>
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header id="top">
+        <img class="brand" src="/icon.svg" width="28" height="28" alt="" />
+        <h1>Nig-Sails <span class="sub">v0.1</span></h1>
+        <span class="sub">Unofficial nautical globe. Not affiliated with IMO, IHO, NOAA, Maersk, COSCO, or any carrier. Open data only. No TeleGeography, Street View, or Apple Maps.</span>
+        <button type="button" id="optBtn" title="Options">Options</button>
+      </header>
+      <div id="stage">
+        <div id="cesiumContainer"></div>
+        <aside id="hud">
+          <div class="kpi"><span>Ships</span><b id="kpiShips">0</b></div>
+          <div class="kpi"><span>AIS</span><b id="kpiAis">demo</b></div>
+          <div class="kpi"><span>Wrecks</span><b id="kpiWrecks">0</b></div>
+          <div class="kpi"><span>Layers</span><b id="kpiLayers">0</b></div>
+        </aside>
+        <aside id="layerRail">
+          <h4>Layers</h4>
+          <div id="layerList"></div>
+        </aside>
+        <aside id="card" hidden>
+          <button type="button" id="cardClose" title="Close">×</button>
+          <h3 id="cardTitle">—</h3>
+          <dl id="cardBody"></dl>
+        </aside>
+        <aside id="options" hidden>
+          <h4>Options</h4>
+          <div class="kpi"><span>Map cache</span><b id="mcSize">— of 16 GB</b></div>
+          <div class="kpi"><span>Tiles</span><b id="mcCount">0</b></div>
+          <div class="kpi"><span>Persistent storage</span><b id="mcPersist">unknown</b></div>
+          <p id="mcNotice" class="sub"></p>
+          <p class="sub">GEBCO and other open tiles may be cached. Bing, Cesium ion and Google 3D Tiles are never written to this cache (HTTP headers only).</p>
+          <button type="button" id="mcClear">Clear map cache</button>
+          <hr />
+          <h4>AIS</h4>
+          <p class="sub">Live AIS uses a local proxy that reads the key from <code>~/.config/nig-sails/aisstream.env</code> or <code>AISSTREAM_API_KEY</code>. You may also paste a key here (stored only in this browser's localStorage; never committed).</p>
+          <label class="sub" for="aisKey">AISStream key (optional, local only)</label>
+          <input type="password" id="aisKey" autocomplete="off" spellcheck="false" />
+          <button type="button" id="aisSave">Save key locally</button>
+          <button type="button" id="aisClear">Clear local key</button>
+          <p id="aisStatus" class="sub">AIS: not started</p>
+        </aside>
+      </div>
+      <footer id="foot">© OpenStreetMap contributors · GEBCO (public domain). See SOURCES.md.</footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

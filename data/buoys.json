@@ -1,0 +1,52 @@
+[
+  {
+    "id": "41001",
+    "name": "NDBC 41001 (East Hatteras)",
+    "lat": 34.616,
+    "lon": -72.648,
+    "notes": "NOAA NDBC weather buoy. Live text: realtime2/41001.txt",
+    "sourceName": "NOAA NDBC",
+    "sourceUrl": "https://www.ndbc.noaa.gov/station_page.php?station=41001",
+    "licence": "US public domain (NOAA)"
+  },
+  {
+    "id": "46029",
+    "name": "NDBC 46029 (Columbia River Bar)",
+    "lat": 46.159,
+    "lon": -124.514,
+    "notes": "NOAA NDBC weather buoy.",
+    "sourceName": "NOAA NDBC",
+    "sourceUrl": "https://www.ndbc.noaa.gov/station_page.php?station=46029",
+    "licence": "US public domain (NOAA)"
+  },
+  {
+    "id": "46042",
+    "name": "NDBC 46042 (Monterey)",
+    "lat": 36.785,
+    "lon": -122.398,
+    "notes": "NOAA NDBC weather buoy off Monterey Bay.",
+    "sourceName": "NOAA NDBC",
+    "sourceUrl": "https://www.ndbc.noaa.gov/station_page.php?station=46042",
+    "licence": "US public domain (NOAA)"
+  },
+  {
+    "id": "44013",
+    "name": "NDBC 44013 (Boston)",
+    "lat": 42.346,
+    "lon": -70.651,
+    "notes": "NOAA NDBC weather buoy.",
+    "sourceName": "NOAA NDBC",
+    "sourceUrl": "https://www.ndbc.noaa.gov/station_page.php?station=44013",
+    "licence": "US public domain (NOAA)"
+  },
+  {
+    "id": "51001",
+    "name": "NDBC 51001 (Hawaii NW)",
+    "lat": 24.452,
+    "lon": -162.008,
+    "notes": "NOAA NDBC weather buoy northwest of Hawai\u2018i.",
+    "sourceName": "NOAA NDBC",
+    "sourceUrl": "https://www.ndbc.noaa.gov/station_page.php?station=51001",
+    "licence": "US public domain (NOAA)"
+  }
+]

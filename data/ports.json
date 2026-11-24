@@ -1,0 +1,136 @@
+[
+  {
+    "id": "rotterdam",
+    "name": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.95,
+    "lon": 4.13,
+    "notes": "Europe's largest seaport.",
+    "sourceName": "World Port Index / public coords",
+    "sourceUrl": "https://msi.nga.mil/Publications/WPI",
+    "licence": "US government public data (WPI)"
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "country": "Singapore",
+    "lat": 1.26,
+    "lon": 103.85,
+    "notes": "Major transshipment hub.",
+    "sourceName": "World Port Index / public coords",
+    "sourceUrl": "https://msi.nga.mil/Publications/WPI",
+    "licence": "US government public data (WPI)"
+  },
+  {
+    "id": "shanghai",
+    "name": "Shanghai (Yangshan / Wusong)",
+    "country": "China",
+    "lat": 31.22,
+    "lon": 121.5,
+    "notes": "Among the world's busiest container ports. Pin is the public harbour area, not a berth survey.",
+    "sourceName": "World Port Index / public coords",
+    "sourceUrl": "https://msi.nga.mil/Publications/WPI",
+    "licence": "US government public data (WPI)",
+    "estimate": true
+  },
+  {
+    "id": "los-angeles",
+    "name": "Los Angeles / Long Beach",
+    "country": "United States",
+    "lat": 33.74,
+    "lon": -118.26,
+    "notes": "San Pedro Bay port complex.",
+    "sourceName": "World Port Index / public coords",
+    "sourceUrl": "https://msi.nga.mil/Publications/WPI",
+    "licence": "US government public data (WPI)"
+  },
+  {
+    "id": "hamburg",
+    "name": "Hamburg",
+    "country": "Germany",
+    "lat": 53.54,
+    "lon": 9.98,
+    "notes": "Elbe estuary port.",
+    "sourceName": "World Port Index / public coords",
+    "sourceUrl": "https://msi.nga.mil/Publications/WPI",
+    "licence": "US government public data (WPI)"
+  },
+  {
+    "id": "busan",
+    "name": "Busan",
+    "country": "South Korea",
+    "lat": 35.1,
+    "lon": 129.04,
+    "notes": "Korea's largest port.",
+    "sourceName": "World Port Index / public coords",
+    "sourceUrl": "https://msi.nga.mil/Publications/WPI",
+    "licence": "US government public data (WPI)"
+  },
+  {
+    "id": "dubai-jebel-ali",
+    "name": "Jebel Ali",
+    "country": "United Arab Emirates",
+    "lat": 24.99,
+    "lon": 55.03,
+    "notes": "Major Gulf container port.",
+    "sourceName": "World Port Index / public coords",
+    "sourceUrl": "https://msi.nga.mil/Publications/WPI",
+    "licence": "US government public data (WPI)"
+  },
+  {
+    "id": "santos",
+    "name": "Santos",
+    "country": "Brazil",
+    "lat": -23.98,
+    "lon": -46.3,
+    "notes": "Brazil's largest port.",
+    "sourceName": "World Port Index / public coords",
+    "sourceUrl": "https://msi.nga.mil/Publications/WPI",
+    "licence": "US government public data (WPI)"
+  },
+  {
+    "id": "durban",
+    "name": "Durban",
+    "country": "South Africa",
+    "lat": -29.87,
+    "lon": 31.03,
+    "notes": "Major South African container port.",
+    "sourceName": "World Port Index / public coords",
+    "sourceUrl": "https://msi.nga.mil/Publications/WPI",
+    "licence": "US government public data (WPI)"
+  },
+  {
+    "id": "halifax",
+    "name": "Halifax",
+    "country": "Canada",
+    "lat": 44.64,
+    "lon": -63.57,
+    "notes": "Ice-free Atlantic Canadian port.",
+    "sourceName": "World Port Index / public coords",
+    "sourceUrl": "https://msi.nga.mil/Publications/WPI",
+    "licence": "US government public data (WPI)"
+  },
+  {
+    "id": "sydney-au",
+    "name": "Sydney (Port Jackson)",
+    "country": "Australia",
+    "lat": -33.85,
+    "lon": 151.21,
+    "notes": "Port Jackson.",
+    "sourceName": "World Port Index / public coords",
+    "sourceUrl": "https://msi.nga.mil/Publications/WPI",
+    "licence": "US government public data (WPI)"
+  },
+  {
+    "id": "mumbai",
+    "name": "Mumbai (Nhava Sheva / JNPT area)",
+    "country": "India",
+    "lat": 18.95,
+    "lon": 72.85,
+    "notes": "Public harbour pin, not a berth survey.",
+    "sourceName": "World Port Index / public coords",
+    "sourceUrl": "https://msi.nga.mil/Publications/WPI",
+    "licence": "US government public data (WPI)",
+    "estimate": true
+  }
+]

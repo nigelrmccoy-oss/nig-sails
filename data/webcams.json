@@ -1,0 +1,33 @@
+[
+  {
+    "id": "onc-seatube",
+    "name": "Ocean Networks Canada cameras / SeaTube",
+    "lat": 48.65,
+    "lon": -126.85,
+    "notes": "Public ONC camera and SeaTube portal. Link out; do not scrape the stream.",
+    "sourceName": "Ocean Networks Canada",
+    "sourceUrl": "https://www.oceannetworks.ca/",
+    "licence": "link out; ONC terms"
+  },
+  {
+    "id": "nautilus-live",
+    "name": "Nautilus Live",
+    "lat": 32.8,
+    "lon": -118.0,
+    "notes": "OET public expedition livestream when a cruise is underway. Link out; do not scrape.",
+    "sourceName": "Nautilus Live",
+    "sourceUrl": "https://nautiluslive.org/live",
+    "licence": "link out; OET terms"
+  },
+  {
+    "id": "okeanos-live",
+    "name": "NOAA Okeanos Explorer livestream",
+    "lat": 38.8,
+    "lon": -77.0,
+    "notes": "NOAA public expedition stream page (when underway). Pin is NOAA campus area, not a ship. Link out; do not scrape.",
+    "sourceName": "NOAA Ocean Exploration",
+    "sourceUrl": "https://oceanexplorer.noaa.gov/okeanos/media/exstream/exstream.html",
+    "licence": "US public domain page; stream terms on site",
+    "estimate": true
+  }
+]

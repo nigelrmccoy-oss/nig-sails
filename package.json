@@ -1,0 +1,24 @@
+{
+  "name": "nig-sails",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Unofficial Google Earth-style nautical globe (Vite + TypeScript + CesiumJS). Open layers only; no TeleGeography, Street View, or Apple Maps.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5190 --strictPort --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "preview": "vite preview --port 5190 --host 127.0.0.1",
+    "test": "node --experimental-strip-types --no-warnings=ExperimentalWarning tests/run.ts",
+    "ais-proxy": "node tools/ais-proxy.mjs",
+    "ships": "blender --background --python scripts/make-ships.py"
+  },
+  "dependencies": {
+    "cesium": "^1.125.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.3",
+    "vite": "^6.0.0",
+    "ws": "^8.18.0"
+  }
+}

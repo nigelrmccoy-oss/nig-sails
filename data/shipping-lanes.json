@@ -1,0 +1,152 @@
+[
+  {
+    "id": "malacca",
+    "name": "Strait of Malacca corridor",
+    "coords": [
+      [
+        100.3,
+        2.2
+      ],
+      [
+        103.5,
+        1.3
+      ],
+      [
+        104.4,
+        1.3
+      ]
+    ],
+    "notes": "ESTIMATE centerline of a major public shipping corridor, pending World Bank / EMODnet density rasters.",
+    "sourceName": "publicly described corridor (ESTIMATE)",
+    "sourceUrl": "https://datacatalog.worldbank.org/search/dataset/0037580/Global-Shipping-Traffic-Density",
+    "licence": "ESTIMATE geometry; density data not baked yet",
+    "estimate": true
+  },
+  {
+    "id": "english-channel",
+    "name": "English Channel corridor",
+    "coords": [
+      [
+        -5.5,
+        50.0
+      ],
+      [
+        -1.5,
+        50.2
+      ],
+      [
+        1.5,
+        51.0
+      ],
+      [
+        2.5,
+        51.4
+      ]
+    ],
+    "notes": "ESTIMATE centerline pending official density rasters.",
+    "sourceName": "publicly described corridor (ESTIMATE)",
+    "sourceUrl": "https://datacatalog.worldbank.org/search/dataset/0037580/Global-Shipping-Traffic-Density",
+    "licence": "ESTIMATE geometry; density data not baked yet",
+    "estimate": true
+  },
+  {
+    "id": "suez",
+    "name": "Suez / Red Sea corridor",
+    "coords": [
+      [
+        32.3,
+        31.3
+      ],
+      [
+        32.35,
+        30.0
+      ],
+      [
+        33.9,
+        27.4
+      ],
+      [
+        34.2,
+        23.0
+      ],
+      [
+        43.3,
+        12.6
+      ]
+    ],
+    "notes": "ESTIMATE centerline along the canal and Red Sea.",
+    "sourceName": "publicly described corridor (ESTIMATE)",
+    "sourceUrl": "https://datacatalog.worldbank.org/search/dataset/0037580/Global-Shipping-Traffic-Density",
+    "licence": "ESTIMATE geometry; density data not baked yet",
+    "estimate": true
+  },
+  {
+    "id": "panama",
+    "name": "Panama approaches",
+    "coords": [
+      [
+        -79.9,
+        9.3
+      ],
+      [
+        -79.55,
+        8.95
+      ],
+      [
+        -79.1,
+        8.4
+      ]
+    ],
+    "notes": "ESTIMATE centerline of canal approaches.",
+    "sourceName": "publicly described corridor (ESTIMATE)",
+    "sourceUrl": "https://datacatalog.worldbank.org/search/dataset/0037580/Global-Shipping-Traffic-Density",
+    "licence": "ESTIMATE geometry; density data not baked yet",
+    "estimate": true
+  },
+  {
+    "id": "cape-aghulhas",
+    "name": "Cape of Good Hope corridor",
+    "coords": [
+      [
+        18.0,
+        -34.2
+      ],
+      [
+        20.0,
+        -35.2
+      ],
+      [
+        25.0,
+        -35.0
+      ]
+    ],
+    "notes": "ESTIMATE centerline of the Cape route.",
+    "sourceName": "publicly described corridor (ESTIMATE)",
+    "sourceUrl": "https://datacatalog.worldbank.org/search/dataset/0037580/Global-Shipping-Traffic-Density",
+    "licence": "ESTIMATE geometry; density data not baked yet",
+    "estimate": true
+  },
+  {
+    "id": "gibraltar",
+    "name": "Strait of Gibraltar corridor",
+    "coords": [
+      [
+        -6.3,
+        35.9
+      ],
+      [
+        -5.4,
+        35.95
+      ],
+      [
+        -5.0,
+        36.0
+      ]
+    ],
+    "notes": "ESTIMATE centerline.",
+    "sourceName": "publicly described corridor (ESTIMATE)",
+    "sourceUrl": "https://datacatalog.worldbank.org/search/dataset/0037580/Global-Shipping-Traffic-Density",
+    "licence": "ESTIMATE geometry; density data not baked yet",
+    "estimate": true
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "eddystone",
+    "name": "Eddystone Lighthouse",
+    "lat": 50.18,
+    "lon": -4.266,
+    "notes": "Sample light; full OpenSeaMap/OSM bake is queued.",
+    "sourceName": "OpenStreetMap / OpenSeaMap",
+    "sourceUrl": "https://www.openseamap.org/",
+    "licence": "ODbL (\u00a9 OpenStreetMap contributors)"
+  },
+  {
+    "id": "fastnet",
+    "name": "Fastnet Lighthouse",
+    "lat": 51.389,
+    "lon": -9.602,
+    "notes": "Sample light; full OpenSeaMap/OSM bake is queued.",
+    "sourceName": "OpenStreetMap / OpenSeaMap",
+    "sourceUrl": "https://www.openseamap.org/",
+    "licence": "ODbL (\u00a9 OpenStreetMap contributors)"
+  }
+]

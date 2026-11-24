@@ -1,0 +1,13 @@
+node_modules/
+dist/
+public/cesium/
+*.log
+logs/
+data/private/
+.DS_Store
+.vite/
+*.tsbuildinfo
+.env
+.env.local
+.env.*.local
+aisstream.env

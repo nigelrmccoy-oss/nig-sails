@@ -1,0 +1,57 @@
+:root {
+  --bg: #071018;
+  --fg: #e8f0f6;
+  --muted: #8aa0b4;
+  --accent: #3db8c9;
+  --warn: #e3b341;
+  --bad: #f85149;
+  --panel: rgba(7, 16, 24, 0.9);
+  --line: #243544;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body, #app { margin: 0; height: 100%; background: var(--bg); color: var(--fg); }
+#app { display: grid; grid-template-rows: auto 1fr auto; }
+#top, #foot {
+  display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;
+  padding: 0.4rem 0.75rem; background: var(--panel); border-bottom: 1px solid var(--line);
+  z-index: 2;
+}
+#foot { border-bottom: 0; border-top: 1px solid var(--line); font-size: 0.75rem; color: var(--muted); }
+#top h1 { font-size: 1rem; font-weight: 650; margin: 0; }
+#top .sub, #foot, .sub { font-size: 0.75rem; color: var(--muted); }
+#top .brand { flex: none; }
+#stage { position: relative; min-height: 0; }
+#cesiumContainer { width: 100%; height: 100%; display: block; min-height: 0; }
+#hud, #options, #layerRail, #card {
+  position: absolute; z-index: 3; background: var(--panel); border: 1px solid var(--line);
+  padding: 0.6rem 0.75rem; max-width: 22rem;
+}
+#hud { top: 0.75rem; left: 0.75rem; }
+#layerRail { top: 0.75rem; left: 12.5rem; max-height: calc(100% - 1.5rem); overflow: auto; min-width: 13rem; }
+#options { top: 0.75rem; right: 0.75rem; min-width: 16rem; }
+#card { top: 0.75rem; right: 0.75rem; min-width: 18rem; max-height: calc(100% - 1.5rem); overflow: auto; }
+#options[hidden], #hud[hidden], #card[hidden], #layerRail[hidden] { display: none; }
+#layerRail label { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; margin: 0.2rem 0; cursor: pointer; }
+#card h3 { margin: 0 1.5rem 0.4rem 0; font-size: 1rem; }
+#card dl { margin: 0; display: grid; grid-template-columns: 6rem 1fr; gap: 0.2rem 0.6rem; font-size: 0.8rem; }
+#card dt { color: var(--muted); }
+#card dd { margin: 0; word-break: break-word; }
+#card a { color: var(--accent); }
+#cardClose {
+  position: absolute; top: 0.3rem; right: 0.3rem; border: 0; background: transparent;
+  color: var(--fg); font-size: 1.2rem; line-height: 1; padding: 0.15rem 0.4rem;
+}
+button {
+  background: #163040; color: var(--fg); border: 1px solid var(--line);
+  border-radius: 4px; padding: 0.25rem 0.55rem; cursor: pointer;
+}
+button:hover { border-color: var(--accent); }
+input[type="password"], input[type="text"] {
+  width: 100%; margin: 0.25rem 0; background: #0c1a24; color: var(--fg);
+  border: 1px solid var(--line); border-radius: 4px; padding: 0.3rem 0.4rem;
+}
+hr { border: 0; border-top: 1px solid var(--line); margin: 0.6rem 0; }
+h4 { margin: 0 0 0.35rem; font-size: 0.85rem; }
+.kpi { display: flex; justify-content: space-between; gap: 1rem; font-variant-numeric: tabular-nums; font-size: 0.85rem; }
+.est { color: var(--warn); }

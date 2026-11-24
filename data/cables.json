@@ -1,0 +1,81 @@
+[
+  {
+    "id": "dover-calais-1851",
+    "name": "Dover\u2013Calais telegraph (1851 lasting)",
+    "year": 1851,
+    "endYear": null,
+    "coords": [
+      [
+        1.313,
+        51.117
+      ],
+      [
+        1.585,
+        50.871
+      ]
+    ],
+    "notes": "A 28 Aug 1850 attempt failed within a day; a lasting cable followed in 1851. Route is a two-point ESTIMATE between published landing areas.",
+    "sourceName": "atlantic-cable.com / standard histories",
+    "sourceUrl": "https://atlantic-cable.com/Cables/1850Channel/",
+    "licence": "facts; route ESTIMATE",
+    "estimate": true
+  },
+  {
+    "id": "tat-1",
+    "name": "TAT-1",
+    "year": 1956,
+    "endYear": null,
+    "coords": [
+      [
+        -5.473,
+        56.415
+      ],
+      [
+        -20,
+        55
+      ],
+      [
+        -40,
+        52
+      ],
+      [
+        -53.965,
+        48.196
+      ]
+    ],
+    "notes": "First transatlantic telephone cable, Oban\u2013Clarenville, 25 Sep 1956, 36 voice channels. Mid-ocean waypoints are ESTIMATE (shelf-following, not a survey).",
+    "sourceName": "standard TAT-1 histories / landing points",
+    "sourceUrl": "https://atlantic-cable.com/Cables/1956TAT-1/",
+    "licence": "facts; route ESTIMATE",
+    "estimate": true
+  },
+  {
+    "id": "tat-8",
+    "name": "TAT-8",
+    "year": 1988,
+    "endYear": null,
+    "coords": [
+      [
+        -4.56,
+        50.83
+      ],
+      [
+        -20,
+        48
+      ],
+      [
+        -50,
+        40
+      ],
+      [
+        -74.34,
+        39.59
+      ]
+    ],
+    "notes": "First transatlantic fibre system, 14 Dec 1988, 280 Mbit/s. Route ESTIMATE between Widemouth Bay area and Tuckerton, NJ area.",
+    "sourceName": "standard TAT-8 histories / landing points",
+    "sourceUrl": "https://atlantic-cable.com/Cables/CableTimeLine/index1980.htm",
+    "licence": "facts; route ESTIMATE",
+    "estimate": true
+  }
+]

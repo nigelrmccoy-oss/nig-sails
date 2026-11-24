@@ -1,0 +1,102 @@
+[
+  {
+    "id": "okeanos-mariana",
+    "name": "Mariana region (NOAA Okeanos Explorer)",
+    "org": "NOAA Ocean Exploration",
+    "lat": 11.3,
+    "lon": 142.2,
+    "year": "2016+",
+    "notes": "NOAA Okeanos Explorer has conducted public expeditions in the Mariana region. Link goes to NOAA Ocean Exploration, not a scrape of dive video.",
+    "sourceName": "NOAA Ocean Exploration",
+    "sourceUrl": "https://oceanexplorer.noaa.gov/okeanos/explorations/explorations.html",
+    "licence": "US public domain (NOAA)"
+  },
+  {
+    "id": "titanic-oe",
+    "name": "Titanic wreck \u2014 research dives",
+    "org": "NOAA / WHOI and others",
+    "lat": 41.7325,
+    "lon": -49.9469,
+    "year": "1985+",
+    "notes": "Multiple publicly documented expeditions since discovery in 1985.",
+    "sourceName": "NOAA Ocean Exploration / Wikidata",
+    "sourceUrl": "https://oceanexplorer.noaa.gov/explorations/03titanic/welcome.html",
+    "licence": "US public domain (NOAA) + Wikidata facts"
+  },
+  {
+    "id": "mbari-monterey",
+    "name": "Monterey Canyon (MBARI)",
+    "org": "MBARI",
+    "lat": 36.7,
+    "lon": -122.0,
+    "year": "ongoing",
+    "notes": "Monterey Bay Aquarium Research Institute canyon and observatory work. Link to MBARI, no scrape.",
+    "sourceName": "MBARI",
+    "sourceUrl": "https://www.mbari.org/science/seafloor-processes/",
+    "licence": "link out; MBARI site terms"
+  },
+  {
+    "id": "onc-neptune",
+    "name": "ONC NEPTUNE observatory",
+    "org": "Ocean Networks Canada",
+    "lat": 48.65,
+    "lon": -126.85,
+    "year": "ongoing",
+    "notes": "NEPTUNE cabled observatory on the Juan de Fuca plate, public science. Pin is approximate node region.",
+    "sourceName": "Ocean Networks Canada",
+    "sourceUrl": "https://www.oceannetworks.ca/observatories/pacific/neptune/",
+    "licence": "link out; ONC terms",
+    "estimate": true
+  },
+  {
+    "id": "onc-venus",
+    "name": "ONC VENUS observatory",
+    "org": "Ocean Networks Canada",
+    "lat": 48.65,
+    "lon": -123.5,
+    "year": "ongoing",
+    "notes": "VENUS coastal observatory in the Salish Sea. Pin is approximate.",
+    "sourceName": "Ocean Networks Canada",
+    "sourceUrl": "https://www.oceannetworks.ca/observatories/pacific/venus/",
+    "licence": "link out; ONC terms",
+    "estimate": true
+  },
+  {
+    "id": "nautilus-portal",
+    "name": "E/V Nautilus expeditions",
+    "org": "Ocean Exploration Trust",
+    "lat": 32.8,
+    "lon": -118.0,
+    "year": "ongoing",
+    "notes": "OET / Nautilus public expedition portal. Pin is a Southern California operations region, not one dive.",
+    "sourceName": "Nautilus Live",
+    "sourceUrl": "https://nautiluslive.org/",
+    "licence": "link out; OET terms",
+    "estimate": true
+  },
+  {
+    "id": "schmidt-falkor",
+    "name": "Schmidt Ocean Institute expeditions",
+    "org": "Schmidt Ocean Institute",
+    "lat": -20.0,
+    "lon": -80.0,
+    "year": "ongoing",
+    "notes": "SOI / R/V Falkor (too) public expedition and imagery portal. Pin is a placeholder eastern Pacific region until the bake lists individual dives.",
+    "sourceName": "Schmidt Ocean Institute",
+    "sourceUrl": "https://schmidtocean.org/",
+    "licence": "link out; SOI terms",
+    "estimate": true
+  },
+  {
+    "id": "endurance22",
+    "name": "Endurance22 find site",
+    "org": "Endurance22 / Falklands Maritime Heritage Trust",
+    "lat": -68.7444,
+    "lon": -52.3272,
+    "year": "2022",
+    "notes": "Publicly announced find of Shackleton's Endurance, 5 Mar 2022.",
+    "sourceName": "Wikidata Q2411189",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2411189",
+    "licence": "CC0 (Wikidata facts)"
+  }
+]
